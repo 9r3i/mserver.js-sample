@@ -6,5 +6,8 @@ const port   = 8000;
 const host   = 'localhost';
 const root   = __dirname+'/www';
 
+/* call mserver */
+const server = new mserver(port,host,root);
+
 /* start the server */
-new mserver(8000,'localhost',__dirname+'/www').start();
+server.start();
