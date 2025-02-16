@@ -1,0 +1,15 @@
+{
+  "name": "@9r3i/mserver.js-sample",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "author": "9r3i",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@9r3i/mserver": "^1.0.6"
+  }
+}
